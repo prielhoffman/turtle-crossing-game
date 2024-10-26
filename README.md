@@ -3,12 +3,14 @@
 This is a Python implementation of a **Turtle Crossing Game** using the `turtle` graphics library. The player controls a turtle that attempts to cross the screen while avoiding randomly moving cars. With each successful crossing, the game's difficulty increases by accelerating the speed of the cars.
 
 ## Features
+
 * Player moves a turtle upwards using the "Up" key.
 * Cars appear randomly and move across the screen horizontally.
 * If the turtle collides with a car, the game ends.
 * Each time the turtle successfully reaches the top of the screen, the level increases and the cars move faster.
 
 ## Modules
+
 The game is divided into the following modules:
 - **main.py**: Controls the game flow, including player movement, car generation, and collision detection.
 - **player.py**: Defines the `Player` class, which manages the turtle's movements and interactions with the finish line.
@@ -34,7 +36,16 @@ The game is divided into the following modules:
     ```
 
 ## How to Play
+
 1. Use the **Up** arrow key to move the turtle upwards.
 2. Avoid the moving cars as they cross the screen.
 3. Each time you reach the top of the screen, the level increases, and the cars speed up.
 4. If the turtle collides with a car, the game ends.
+
+## License
+
+This project is open-source and available under the MIT License.
+
+## Acknowledgements
+
+Inspired by Angela Yu’s course on Python development ("100 Days of Code: The Complete Python Pro Bootcamp" on Udemy).
